@@ -1,0 +1,108 @@
+V "GNAT Lib v4.8"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_DYNAMIC_CODE
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK
+RV MAX_TASK_ENTRIES=2
+RV MAX_TASKS=1+
+
+U tasks%b		zad1.adb		3d1732c0 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20130318084752 3ffc8e18
+D a-except.ads		20130318084752 10fcae55
+D a-finali.ads		20130318084752 52ecdc1b
+D a-inteio.ads		20130318084807 f64b89a4
+D a-ioexce.ads		20130318084807 8b9de6cd
+D a-reatim.ads		20130318084752 63f07669
+D a-stream.ads		20130318084752 2ca4ee37
+D a-tags.ads		20130318084752 6c0509d0
+D a-textio.ads		20130318084752 386df5d4
+D a-tiinio.ads		20130318084752 aa04e5d6
+D a-unccon.ads		20130318084752 f9eb8f06
+D interfac.ads		20130318084752 129923ea
+D i-c.ads		20130318084752 5421119b
+D i-cstrea.ads		20130318084752 3286f6aa
+D system.ads		20130318084752 90249111
+D s-atacco.ads		20130318084752 4c36d12f
+D s-crtl.ads		20130318084752 1ea48bce
+D s-exctab.ads		20130318084807 66e51330
+D s-ficobl.ads		20130318084807 55a71d43
+D s-finmas.ads		20130318084752 b95bb341
+D s-finroo.ads		20130318084752 4ff27390
+D s-linux.ads		20130318084752 70c7cb45
+D s-multip.ads		20130318084752 38ac9f73
+D s-oscons.ads		20160615143546 a6b64a87
+D s-osinte.ads		20130318084752 938b6b03
+D s-parame.ads		20130318084752 b6e20cc0
+D s-pooglo.ads		20130318084752 542f33d0
+D s-soflin.ads		20130318084752 24c8153c
+D s-stache.ads		20130318084752 596fc1b4
+D s-stausa.ads		20130318084807 017a0a05
+D s-stalib.ads		20130318084807 f78bcf95
+D s-stoele.ads		20130318084752 facd7d98
+D s-stoele.adb		20130318084752 afc5dc80
+D s-stopoo.ads		20130318084752 7b8fbeee
+D s-tasinf.ads		20130318084752 21316953
+D s-taspri.ads		20130318084752 15f617a8
+D s-taprop.ads		20130318084807 1dd2e1b6
+D s-taskin.ads		20130318084807 59e95256
+D s-taprob.ads		20130318084752 502249e3
+D s-tpoben.ads		20130318084752 b641f948
+D s-tasren.ads		20130318084752 a67a9949
+D s-tassta.ads		20130318084752 70812003
+D s-traent.ads		20130318084752 5221ee41
+D s-unstyp.ads		20130318084752 6ae15c76
+D s-wchcon.ads		20130318084752 bfeb2e3d
+D zad1.adb		20170602123246 f3314eb0
+X 1 ada.ads
+16K9*Ada 19e8 46|1r6 1r23 2r6 2r31
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[10|45] 46|2w10 2r35
+X 9 a-textio.ads
+49K13*Text_IO 471e16 46|1w10 1r27
+166U14*New_Line 46|23s25 34s25
+242U14*Put 46|21s25 32s25
+X 10 a-tiinio.ads
+65U14*Put 46|22s25[4|18] 33s25[4|18]
+X 30 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 46 zad1.adb
+5U11*Tasks 5b11 51l5 51t10
+7t14 producer 17b19 25t12
+8t14 consumer 27b19 36t12
+9T19 BUF 12l13 12e16 15r19 38b19 48t12
+10Y23 Put 10>28 20s33 41b32 43l29 43t32
+10i28 param{integer} 42r43
+11Y23 Get 11<28 31s33 44b32 46l29 46t32
+11i28 param{integer} 45m33 45r33
+14i9 buffer{integer} 42m33 45r42
+15t9 bufTask{9T19} 20r25 31r25
+19i21 i{integer} 20r37 22r29
+28i17 element{integer} 31m37 33r29
+30i21 i{integer}
+40i21 i{integer}
+41i36 param{integer}
+44i36 param{integer}
+

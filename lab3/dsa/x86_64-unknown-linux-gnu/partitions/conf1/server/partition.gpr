@@ -1,0 +1,4 @@
+project Partition extends all "/home/inf117204/NPR/ADA/lab3/dsa/x86_64-unknown-linux-gnu/conf1_dist_app.gpr" is
+   for Object_Dir use ".";
+   for Exec_Dir use "../../../../../";
+end Partition;

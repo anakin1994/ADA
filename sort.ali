@@ -1,0 +1,61 @@
+V "GNAT Lib v4.8"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV SPARK
+
+U sort%b		sort.adb		03c97f55 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20130318084752 3ffc8e18
+D a-except.ads		20130318084752 10fcae55
+D a-finali.ads		20130318084752 52ecdc1b
+D a-ioexce.ads		20130318084807 8b9de6cd
+D a-stream.ads		20130318084752 2ca4ee37
+D a-tags.ads		20130318084752 6c0509d0
+D a-textio.ads		20130318084752 386df5d4
+D a-unccon.ads		20130318084752 f9eb8f06
+D interfac.ads		20130318084752 129923ea
+D i-cstrea.ads		20130318084752 3286f6aa
+D sort.adb		20170519123311 3ba48a81
+D system.ads		20130318084752 90249111
+D s-crtl.ads		20130318084752 1ea48bce
+D s-exctab.ads		20130318084807 66e51330
+D s-ficobl.ads		20130318084807 55a71d43
+D s-finmas.ads		20130318084752 b95bb341
+D s-finroo.ads		20130318084752 4ff27390
+D s-imgint.ads		20130318084752 02dbe0c2
+D s-parame.ads		20130318084752 b6e20cc0
+D s-pooglo.ads		20130318084752 542f33d0
+D s-soflin.ads		20130318084752 24c8153c
+D s-stache.ads		20130318084752 596fc1b4
+D s-stalib.ads		20130318084807 f78bcf95
+D s-stoele.ads		20130318084752 facd7d98
+D s-stoele.adb		20130318084752 afc5dc80
+D s-stopoo.ads		20130318084752 7b8fbeee
+D s-traent.ads		20130318084752 5221ee41
+D s-unstyp.ads		20130318084752 6ae15c76
+D s-wchcon.ads		20130318084752 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 11|1r6 1r23
+X 7 a-textio.ads
+49K13*Text_IO 471e16 11|1w10 1r27
+263U14*Put_Line 11|14s17 23s9 25s17
+X 11 sort.adb
+4U11*Sort 4b11 27l5 27t9
+5a9 tab(integer) 13r18 14r40 16r18 17r26 17r37 18r28 18r37 19m38 19r38 19m46
+. 19r46 24r18 25r40
+6U19 Swap 6b19 6=24 6=30 11l13 11t17 19s33
+6i24 Left{integer} 7r35 9m17
+6i30 Right{integer} 9r25 10m17
+7i17 Temp{integer} 10r26
+13i13 i{integer} 14r44
+16i13 j{integer} 17r46
+17i21 i{integer} 18r32 18r41 19r42 19r50
+24i13 i{integer} 25r44
+

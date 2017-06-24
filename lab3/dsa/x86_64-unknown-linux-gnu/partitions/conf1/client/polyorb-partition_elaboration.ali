@@ -1,0 +1,307 @@
+V "GNAT Lib v2014"
+A -gnatA
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U polyorb.partition_elaboration%b  polyorb-partition_elaboration.adb  2a341b0f NE OO PK
+W ada.tags%s		a-tags.adb		a-tags.ali
+W polyorb%s		polyorb.ads		polyorb.ali
+W polyorb.dsa_p%s	polyorb-dsa_p.ads	polyorb-dsa_p.ali
+W polyorb.dsa_p.name_service%s  polyorb-dsa_p-name_service.adb  polyorb-dsa_p-name_service.ali
+W polyorb.dsa_p.name_service.cos_naming%s  polyorb-dsa_p-name_service-cos_naming.adb  polyorb-dsa_p-name_service-cos_naming.ali
+W polyorb.initialization%s  polyorb-initialization.adb  polyorb-initialization.ali  EA
+W polyorb.orb%s		polyorb-orb.adb		polyorb-orb.ali
+W polyorb.orb.thread_pool%s  polyorb-orb-thread_pool.adb  polyorb-orb-thread_pool.ali
+W polyorb.parameters%s	polyorb-parameters.adb	polyorb-parameters.ali
+W polyorb.setup%s	polyorb-setup.ads	polyorb-setup.ali
+W polyorb.setup.access_points%s  polyorb-setup-access_points.ads  polyorb-setup-access_points.ali
+W polyorb.setup.access_points.iiop%s  polyorb-setup-access_points-iiop.adb  polyorb-setup-access_points-iiop.ali
+W polyorb.setup.base%s	polyorb-setup-base.adb	polyorb-setup-base.ali  EA
+W polyorb.setup.iiop%s	polyorb-setup-iiop.adb	polyorb-setup-iiop.ali  EA
+W polyorb.setup.tasking%s  polyorb-setup-tasking.ads  polyorb-setup-tasking.ali
+W polyorb.setup.tasking.full_tasking%s  polyorb-setup-tasking-full_tasking.adb  polyorb-setup-tasking-full_tasking.ali
+W polyorb.tasking%s	polyorb-tasking.ads	polyorb-tasking.ali
+W polyorb.tasking.threads%s  polyorb-tasking-threads.adb  polyorb-tasking-threads.ali
+W polyorb.utils%s	polyorb-utils.adb	polyorb-utils.ali
+W polyorb.utils.strings%s  polyorb-utils-strings.adb  polyorb-utils-strings.ali
+W polyorb.utils.strings.lists%s  polyorb-utils-strings-lists.adb  polyorb-utils-strings-lists.ali
+W system%s		system.ads		system.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U polyorb.partition_elaboration%s  polyorb-partition_elaboration.ads  4a71d1a2 EB NE OO PK
+W polyorb%s		polyorb.ads		polyorb.ali
+W polyorb.dsa_p%s	polyorb-dsa_p.ads	polyorb-dsa_p.ali
+W polyorb.dsa_p.exceptions%s  polyorb-dsa_p-exceptions.adb  polyorb-dsa_p-exceptions.ali  EA
+W polyorb.exceptions%s	polyorb-exceptions.adb	polyorb-exceptions.ali  EA
+W polyorb.initialization%s  polyorb-initialization.adb  polyorb-initialization.ali  EA
+W polyorb.log%s		polyorb-log.adb		polyorb-log.ali  EA
+W polyorb.orb%s		polyorb-orb.adb		polyorb-orb.ali  EA
+W polyorb.orb_controller%s  polyorb-orb_controller.adb  polyorb-orb_controller.ali
+W polyorb.orb_controller.workers%s  polyorb-orb_controller-workers.adb  polyorb-orb_controller-workers.ali  EA
+W polyorb.parameters%s	polyorb-parameters.adb	polyorb-parameters.ali  EA
+W polyorb.poa%s		polyorb-poa.adb		polyorb-poa.ali  EA
+W polyorb.qos%s		polyorb-qos.adb		polyorb-qos.ali  EA
+W polyorb.qos.term_manager_info%s  polyorb-qos-term_manager_info.adb  polyorb-qos-term_manager_info.ali  EA
+W polyorb.services%s	polyorb-services.ads	polyorb-services.ali
+W polyorb.services.naming%s  polyorb-services-naming.ads  polyorb-services-naming.ali  EA
+W polyorb.services.naming.helper%s  polyorb-services-naming-helper.adb  polyorb-services-naming-helper.ali  EA
+W polyorb.services.naming.namingcontext%s  polyorb-services-naming-namingcontext.adb  polyorb-services-naming-namingcontext.ali
+W polyorb.services.naming.namingcontext.client%s  polyorb-services-naming-namingcontext-client.adb  polyorb-services-naming-namingcontext-client.ali  EA
+W polyorb.setup%s	polyorb-setup.ads	polyorb-setup.ali
+W polyorb.setup.oa%s	polyorb-setup-oa.ads	polyorb-setup-oa.ali
+W polyorb.setup.oa.basic_poa%s  polyorb-setup-oa-basic_poa.adb  polyorb-setup-oa-basic_poa.ali  EA
+W polyorb.termination_activity%s  polyorb-termination_activity.adb  polyorb-termination_activity.ali  EA
+
+D ada.ads		20140406181354 3ffc8e18 ada%s
+D a-charac.ads		20140406181359 2d3ec45b ada.characters%s
+D a-chlat1.ads		20140406181359 66457d31 ada.characters.latin_1%s
+D a-except.ads		20140406181356 43d57f8c ada.exceptions%s
+D a-finali.ads		20140406181359 69f99942 ada.finalization%s
+D a-stream.ads		20140406181355 1a984740 ada.streams%s
+D a-string.ads		20140406181359 90ac6797 ada.strings%s
+D a-strmap.ads		20140406181359 e8bb714a ada.strings.maps%s
+D a-strsup.ads		20140406181358 a27dcb33 ada.strings.superbounded%s
+D a-strunb.ads		20140406181359 3f91d4c5 ada.strings.unbounded%s
+D a-stwima.ads		20140406181359 09a6f5ac ada.strings.wide_maps%s
+D a-stwisu.ads		20140406181357 ca9332d8 ada.strings.wide_superbounded%s
+D a-stwiun.ads		20140406181358 64ae971d ada.strings.wide_unbounded%s
+D a-tags.ads		20140406181357 dc4d0634 ada.tags%s
+D a-tgdico.ads		20140406181358 5bab295e ada.tags.generic_dispatching_constructor%s
+D a-unccon.ads		20140406181359 f9eb8f06 ada.unchecked_conversion%s
+D a-uncdea.ads		20140406181359 f15a5ed1 ada.unchecked_deallocation%s
+D interfac.ads		20140406181359 69adb1b9 interfaces%s
+D polyorb.ads		20140406211838 1b2dc832 polyorb%s
+D polyorb-annotations.ads  20140406211838 177ede12 polyorb.annotations%s
+D polyorb-any.ads	20140406211838 965a7b6b polyorb.any%s
+D polyorb-any-exceptionlist.ads  20140406211838 ab9b596a polyorb.any.exceptionlist%s
+D polyorb-any-nvlist.ads  20140406211838 3479a3ce polyorb.any.nvlist%s
+D polyorb-asynch_ev.ads	20140406211838 725936f4 polyorb.asynch_ev%s
+D polyorb-binding_data.ads  20140406211838 23b43b53 polyorb.binding_data%s
+D polyorb-binding_objects.ads  20140406211838 ceccc4e5 polyorb.binding_objects%s
+D polyorb-binding_objects-lists.ads  20140406211838 c0b24d0d polyorb.binding_objects.lists%s
+D polyorb-buffers.ads	20140406211838 b4d604b0 polyorb.buffers%s
+D polyorb-components.ads  20140406211838 3f79f8ff polyorb.components%s
+D polyorb-dsa_p.ads	20140406211839 9992676b polyorb.dsa_p%s
+D polyorb-dsa_p-exceptions.ads  20140406211839 717634e7 polyorb.dsa_p.exceptions%s
+D polyorb-dsa_p-name_service.ads  20140406211839 e5b8efaf polyorb.dsa_p.name_service%s
+D polyorb-dsa_p-name_service-cos_naming.ads  20140406211839 2194f6a4 polyorb.dsa_p.name_service.cos_naming%s
+D polyorb-errors.ads	20140406211838 ab5de59c polyorb.errors%s
+D polyorb-exceptions.ads  20140406211838 899167cc polyorb.exceptions%s
+D polyorb-filters.ads	20140406211838 be81b6b9 polyorb.filters%s
+D polyorb-initialization.ads  20140406211838 cac335a4 polyorb.initialization%s
+D polyorb-jobs.ads	20140406211838 4abbbf82 polyorb.jobs%s
+D polyorb-log.ads	20140406211838 537ef1f9 polyorb.log%s
+D polyorb-obj_adapters.ads  20140406211838 21275526 polyorb.obj_adapters%s
+D polyorb-object_maps.ads  20140406211838 adb23e90 polyorb.object_maps%s
+D polyorb-objects.ads	20140406211838 5cc5684f polyorb.objects%s
+D polyorb-opaque.ads	20140406211838 96880399 polyorb.opaque%s
+D polyorb-opaque-chunk_pools.ads  20140406211838 642fce91 polyorb.opaque.chunk_pools%s
+D polyorb-orb.ads	20140406211838 9e40c612 polyorb.orb%s
+D polyorb-orb-thread_pool.ads  20140406211838 310cbcb1 polyorb.orb.thread_pool%s
+D polyorb-orb_controller.ads  20140406211838 7a376c7a polyorb.orb_controller%s
+D polyorb-orb_controller-workers.ads  20140406211838 44472998 polyorb.orb_controller.workers%s
+D polyorb-parameters.ads  20140406211838 56dda3d9 polyorb.parameters%s
+D polyorb-partition_elaboration.ads  20140406211839 fe9daacd polyorb.partition_elaboration%s
+D polyorb-partition_elaboration.adb  20170609130219 635d88b4 polyorb.partition_elaboration%b
+D polyorb-poa.ads	20140406211838 e6e75542 polyorb.poa%s
+D polyorb-poa_manager.ads  20140406211838 0fd9b3c7 polyorb.poa_manager%s
+D polyorb-poa_policies.ads  20140406211838 7bd2b626 polyorb.poa_policies%s
+D polyorb-poa_policies-id_assignment_policy.ads  20140406211838 80ba5d46 polyorb.poa_policies.id_assignment_policy%s
+D polyorb-poa_policies-id_uniqueness_policy.ads  20140406211838 ff7218da polyorb.poa_policies.id_uniqueness_policy%s
+D polyorb-poa_policies-implicit_activation_policy.ads  20140406211838 8f0658b0 polyorb.poa_policies.implicit_activation_policy%s
+D polyorb-poa_policies-lifespan_policy.ads  20140406211838 14e3c8e8 polyorb.poa_policies.lifespan_policy%s
+D polyorb-poa_policies-request_processing_policy.ads  20140406211838 90755f8d polyorb.poa_policies.request_processing_policy%s
+D polyorb-poa_policies-servant_retention_policy.ads  20140406211838 9c0b5ff6 polyorb.poa_policies.servant_retention_policy%s
+D polyorb-poa_policies-thread_policy.ads  20140406211838 4aa04be4 polyorb.poa_policies.thread_policy%s
+D polyorb-poa_types.ads	20140406211838 1e96e5de polyorb.poa_types%s
+D polyorb-qos.ads	20140406211838 b83460cc polyorb.qos%s
+D polyorb-qos-term_manager_info.ads  20140406211839 807a5c72 polyorb.qos.term_manager_info%s
+D polyorb-references.ads  20140406211838 7052ce92 polyorb.references%s
+D polyorb-representations.ads  20140406211838 a21be121 polyorb.representations%s
+D polyorb-request_scheduler.ads  20140406211838 10f19e55 polyorb.request_scheduler%s
+D polyorb-requests.ads	20140406211838 a033b92a polyorb.requests%s
+D polyorb-sequences.ads	20140406211838 f6dbc651 polyorb.sequences%s
+D polyorb-sequences-unbounded.ads  20140406211838 18f7528c polyorb.sequences.unbounded%s
+D polyorb-servants.ads	20140406211838 4aade96c polyorb.servants%s
+D polyorb-services.ads	20140406211838 186aa883 polyorb.services%s
+D polyorb-services-naming.ads  20140406211838 d8c9f6a7 polyorb.services.naming%s
+D polyorb-services-naming-helper.ads  20140406211838 22074897 polyorb.services.naming.helper%s
+D polyorb-services-naming-namingcontext.ads  20140406211838 57b7b736 polyorb.services.naming.namingcontext%s
+D polyorb-services-naming-namingcontext-client.ads  20140406211838 bb2e5288 polyorb.services.naming.namingcontext.client%s
+D polyorb-setup.ads	20140406211838 cb33b4b9 polyorb.setup%s
+D polyorb-setup-access_points.ads  20140406211838 3bfc00d7 polyorb.setup.access_points%s
+D polyorb-setup-access_points-iiop.ads  20140406211838 aabba722 polyorb.setup.access_points.iiop%s
+D polyorb-setup-base.ads  20140406211839 54c746f9 polyorb.setup.base%s
+D polyorb-setup-iiop.ads  20140406211838 1df0f23f polyorb.setup.iiop%s
+D polyorb-setup-oa.ads	20140406211838 33a2e4a5 polyorb.setup.oa%s
+D polyorb-setup-oa-basic_poa.ads  20140406211838 16d30b60 polyorb.setup.oa.basic_poa%s
+D polyorb-setup-tasking.ads  20140406211839 18c6f283 polyorb.setup.tasking%s
+D polyorb-setup-tasking-full_tasking.ads  20140406211839 adc258dc polyorb.setup.tasking.full_tasking%s
+D polyorb-smart_pointers.ads  20140406211838 a2229cc4 polyorb.smart_pointers%s
+D polyorb-task_info.ads	20140406211838 8e05e9c6 polyorb.task_info%s
+D polyorb-tasking.ads	20140406211838 d815d5f1 polyorb.tasking%s
+D polyorb-tasking-abortables.ads  20140406211838 526978d4 polyorb.tasking.abortables%s
+D polyorb-tasking-condition_variables.ads  20140406211838 deccbc14 polyorb.tasking.condition_variables%s
+D polyorb-tasking-idle_tasks_managers.ads  20140406211838 9c87ff2e polyorb.tasking.idle_tasks_managers%s
+D polyorb-tasking-mutexes.ads  20140406211838 31c635e1 polyorb.tasking.mutexes%s
+D polyorb-tasking-threads.ads  20140406211838 c3cd59ed polyorb.tasking.threads%s
+D polyorb-termination_activity.ads  20140406211839 cbdbe65c polyorb.termination_activity%s
+D polyorb-transport.ads	20140406211838 4fe5c17c polyorb.transport%s
+D polyorb-types.ads	20140406211838 f39ba8b7 polyorb.types%s
+D polyorb-utils.ads	20140406211838 6c128a8b polyorb.utils%s
+D polyorb-utils-chained_lists.ads  20140406211838 3294f8a3 polyorb.utils.chained_lists%s
+D polyorb-utils-dynamic_tables.ads  20140406211838 6864320f polyorb.utils.dynamic_tables%s
+D polyorb-utils-hfunctions.ads  20140406211838 82b4c8f6 polyorb.utils.hfunctions%s
+D polyorb-utils-hfunctions-hyper.ads  20140406211838 657d7a19 polyorb.utils.hfunctions.hyper%s
+D polyorb-utils-htables.ads  20140406211838 a4a1de38 polyorb.utils.htables%s
+D polyorb-utils-htables-perfect.ads  20140406211838 84af15bd polyorb.utils.htables.perfect%s
+D polyorb-utils-ilists.ads  20140406211838 d241f94c polyorb.utils.ilists%s
+D polyorb-utils-simple_flags.ads  20140406211838 3140190a polyorb.utils.simple_flags%s
+D polyorb-utils-strings.ads  20140406211838 dae37d40 polyorb.utils.strings%s
+D polyorb-utils-strings-lists.ads  20140406211838 969ebf9d polyorb.utils.strings.lists%s
+D system.ads		20140406181354 90249111 system%s
+D s-atocou.ads		20140406181359 cd7c94ca system.atomic_counters%s
+D s-atocou.adb		20140406181355 62bad392 system.atomic_counters%b
+D s-exctab.ads		20140406181354 54135002 system.exception_table%s
+D s-finmas.ads		20140406181356 814daec4 system.finalization_masters%s
+D s-finroo.ads		20140406181359 4ff27390 system.finalization_root%s
+D s-parame.ads		20140406181358 06da98b2 system.parameters%s
+D s-pooglo.ads		20140406181357 542f33d0 system.pool_global%s
+D s-secsta.ads		20140406181359 86a2856d system.secondary_stack%s
+D s-soflin.ads		20140406181358 aa763b52 system.soft_links%s
+D s-stache.ads		20140406181355 a37c21ec system.stack_checking%s
+D s-stalib.ads		20140406181355 fa0a3617 system.standard_library%s
+D s-stoele.ads		20140406181357 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20140406181355 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20140406181357 b16154c2 system.storage_pools%s
+D s-stposu.ads		20140406181355 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20140406181358 aedef97e system.stream_attributes%s
+D s-traent.ads		20140406181355 b5116092 system.traceback_entries%s
+D s-unstyp.ads		20140406181356 510692af system.unsigned_types%s
+X 18 interfac.ads
+63M9*Unsigned_32
+109V13*Shift_Left{63M9} 105|37i18
+X 19 polyorb.ads
+35K9*PolyORB 37e12 50|37r6 40r6 43r6 46r6 49r6 52r6 55r6 58r6 61r6 64r6 67r6
+. 70r6 73r6 76r6 79r6 82r9 100r5 51|4r6 7r6 10r6 11r6 12r6 13r6 14r6 15r6
+. 16r6 19r6 20r6 21r6 22r6 23r6 24r6 25r6 26r6 27r6 28r6 29r6 30r14 91r7
+. 92r13 94r5
+X 21 polyorb-any.ads
+181h12*Union_TC_Map
+253V28*"="=255:32{boolean} 98|41i19
+X 26 polyorb-binding_objects.ads
+52P9*Binding_Object_Access(50R9)
+56V13*Link(52P9) 104|54i21
+X 30 polyorb-dsa_p.ads
+35K17*DSA_P 37e18 50|40r14 51|29r14 91r15 92r21
+X 31 polyorb-dsa_p-exceptions.ads
+38K23*Exceptions 55e29 50|40w20
+X 32 polyorb-dsa_p-name_service.ads
+38K23*Name_Service 108e31 51|29r20 91m21 92r27
+48P9*Name_Server_Access(40R9)
+49p4*Name_Ctx{48P9} 51|91m34
+X 33 polyorb-dsa_p-name_service-cos_naming.ads
+41K36*COS_Naming 71e42 51|29w33 92r40
+43R9*COS_Name_Server<32|40R9> 43e60 51|92r51
+X 35 polyorb-exceptions.ads
+58K17*Exceptions 129e23 50|37w14
+X 37 polyorb-initialization.ads
+38K17*Initialization 112e27 50|43w14 51|15w14 16r14
+X 39 polyorb-log.ads
+35K17*Log 125e16 50|46w14
+X 44 polyorb-opaque-chunk_pools.ads
+46R9*Chunk
+47P9*Chunk_Access(46R9)
+98V13 Link(47P9) 104|54i21
+X 45 polyorb-orb.ads
+61K17*ORB 344e16 50|52w14 51|11r14
+X 46 polyorb-orb-thread_pool.ads
+37K21*Thread_Pool 84e28 51|11w18
+X 47 polyorb-orb_controller.ads
+46K17*ORB_Controller 403e27 50|55r14
+X 48 polyorb-orb_controller-workers.ads
+40K32*Workers 80e35 50|55w29
+X 49 polyorb-parameters.ads
+39K17*Parameters 140e23 50|49w14 51|13w14 14r14
+X 50 polyorb-partition_elaboration.ads
+82K17*Partition_Elaboration 19|35k9 50|100l13 100e34 51|30b22 94l13 94t34
+85U14*Configure 86^7 51|39b14 93l8 93t17
+86p7 Set_Conf 51|40b7 43r7 47r7 51r7 55r7 59r7 63r7 67r7 71r7 75r7 79r7 83r7
+. 87r7
+86a36 Section{string} 51|44r10 48r10 52r10 56r10 60r10 64r10 68r10 72r10
+. 76r10 80r10 84r10 88r10
+86a45 Key{string} 51|45r10 49r10 53r10 57r10 61r10 65r10 69r10 73r10 77r10
+. 81r10 85r10 89r10
+86a50 Value{string} 51|46r10 50r10 54r10 58r10 62r10 66r10 70r10 74r10 78r10
+. 82r10 86r10 90r10
+89U14*Full_Launch 51|31b14 34l8 34t19
+92U14*Run_Additional_Tasks 51|35b14 38l8 38t28
+X 51 polyorb-partition_elaboration.adb
+40a36 Section{string}
+40a45 Key{string}
+40a50 Value{string}
+X 52 polyorb-poa.ads
+68K17*POA 50|58w14 52|386e16
+X 63 polyorb-qos.ads
+36K17*QoS 50|61w14 64r14 63|69e16
+X 64 polyorb-qos-term_manager_info.ads
+46K21*Term_Manager_Info 50|64w18 64|85e34
+X 72 polyorb-services.ads
+33K17*Services 50|67r14 70r14 73r14 72|37e21
+X 73 polyorb-services-naming.ads
+44K26*Naming 50|67w23 70r23 73r23 73|92e28
+X 74 polyorb-services-naming-helper.ads
+37K33*Helper 50|70w30 74|107e35
+X 75 polyorb-services-naming-namingcontext.ads
+38K33*NamingContext 50|73r30 75|122e42
+X 76 polyorb-services-naming-namingcontext-client.ads
+35K47*Client 50|73w44 76|117e49
+X 77 polyorb-setup.ads
+38K17*Setup 50|76r14 51|4r14 7r14 10r14 12r14 77|46e18
+X 78 polyorb-setup-access_points.ads
+36K23*Access_Points 51|12r20 78|38e32
+X 79 polyorb-setup-access_points-iiop.ads
+37K37*IIOP 51|12w34 79|44e37
+X 80 polyorb-setup-base.ads
+35K23*Base 51|4w20 80|39e23
+X 81 polyorb-setup-iiop.ads
+36K23*IIOP 51|7w20 81|40e23
+X 82 polyorb-setup-oa.ads
+35K23*OA 50|76r20 82|37e21
+X 83 polyorb-setup-oa-basic_poa.ads
+35K26*Basic_POA 50|76w23 83|39e31
+X 84 polyorb-setup-tasking.ads
+35K23*Tasking 51|10r20 84|37e26
+X 85 polyorb-setup-tasking-full_tasking.ads
+35K31*Full_Tasking 51|10w28 85|39e39
+X 87 polyorb-task_info.ads
+71P9*Task_Info_Access(70R9)
+264V13 Link(71P9) 104|54i21
+X 88 polyorb-tasking.ads
+51K17*Tasking 51|27r14 28r14 88|55e20
+X 93 polyorb-tasking-threads.ads
+49K25*Threads 51|27w22 28r22 93|223e28
+X 94 polyorb-termination_activity.ads
+37K17*Termination_Activity 50|79w14 94|60e33
+X 97 polyorb-utils.ads
+39K17*Utils 51|19w14 20r14 21r14 22r14 23r14 24r14 25r14 26r14 97|152e18
+X 98 polyorb-utils-chained_lists.ads
+133R9 Node
+134P9 Node_Access(133R9)
+157V13 Link(134P9[45|319]) 104|54i21[45|319]
+X 106 polyorb-utils-strings.ads
+37K23*Strings 51|21w20 22r20 23r20 24r20 25r20 26r20 106|67e26
+X 107 polyorb-utils-strings-lists.ads
+39K31*Lists 51|23w28 24r28 25w28 26r28 107|72e32
+

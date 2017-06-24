@@ -1,0 +1,119 @@
+V "GNAT Lib v4.8"
+M P W=b
+P ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_IMPLICIT_DYNAMIC_CODE
+RV NO_LOCAL_PROTECTED_OBJECTS
+RV NO_NESTED_FINALIZATION
+RV NO_PROTECTED_TYPES
+RV NO_RELATIVE_DELAY
+RV NO_REQUEUE_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK
+RV MAX_PROTECTED_ENTRIES=2
+RV MAX_TASKS=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U zad4%b		zad4.adb		967fbe09 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+W system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20130318084752 3ffc8e18
+D a-calend.ads		20130318084752 d86d6c8c
+D a-caldel.ads		20130318084752 9f20b83d
+D a-except.ads		20130318084752 10fcae55
+D a-finali.ads		20130318084752 52ecdc1b
+D a-inteio.ads		20130318084807 f64b89a4
+D a-ioexce.ads		20130318084807 8b9de6cd
+D a-reatim.ads		20130318084752 63f07669
+D a-stream.ads		20130318084752 2ca4ee37
+D a-tags.ads		20130318084752 6c0509d0
+D a-textio.ads		20130318084752 386df5d4
+D a-tiinio.ads		20130318084752 aa04e5d6
+D a-unccon.ads		20130318084752 f9eb8f06
+D interfac.ads		20130318084752 129923ea
+D i-c.ads		20130318084752 5421119b
+D i-cstrea.ads		20130318084752 3286f6aa
+D system.ads		20130318084752 90249111
+D s-atacco.ads		20130318084752 4c36d12f
+D s-crtl.ads		20130318084752 1ea48bce
+D s-exctab.ads		20130318084807 66e51330
+D s-ficobl.ads		20130318084807 55a71d43
+D s-finmas.ads		20130318084752 b95bb341
+D s-finroo.ads		20130318084752 4ff27390
+D s-linux.ads		20130318084752 70c7cb45
+D s-multip.ads		20130318084752 38ac9f73
+D s-oscons.ads		20160615143546 a6b64a87
+D s-osinte.ads		20130318084752 938b6b03
+D s-parame.ads		20130318084752 b6e20cc0
+D s-pooglo.ads		20130318084752 542f33d0
+D s-soflin.ads		20130318084752 24c8153c
+D s-stache.ads		20130318084752 596fc1b4
+D s-stausa.ads		20130318084807 017a0a05
+D s-stalib.ads		20130318084807 f78bcf95
+D s-stoele.ads		20130318084752 facd7d98
+D s-stoele.adb		20130318084752 afc5dc80
+D s-stopoo.ads		20130318084752 7b8fbeee
+D s-tasinf.ads		20130318084752 21316953
+D s-taspri.ads		20130318084752 15f617a8
+D s-taprop.ads		20130318084807 1dd2e1b6
+D s-taskin.ads		20130318084807 59e95256
+D s-taprob.ads		20130318084752 502249e3
+D s-tpoben.ads		20130318084752 b641f948
+D s-tpobop.ads		20130318084752 5f548bb3
+D s-tassta.ads		20130318084752 70812003
+D s-traent.ads		20130318084752 5221ee41
+D s-unstyp.ads		20130318084752 6ae15c76
+D s-wchcon.ads		20130318084752 bfeb2e3d
+D zad4.adb		20170609125748 5859c279
+X 1 ada.ads
+16K9*Ada 19e8 48|1r6 1r23 2r6 2r31
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[12|45] 48|2w10 2r35
+X 11 a-textio.ads
+49K13*Text_IO 471e16 48|1w10 1r27
+263U14*Put_Line 48|43s25 45s25 54s25 56s25
+X 32 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 48 zad4.adb
+5U11*zad4 5b11 62l5 62t9
+7w19 Semaphore 16b24 34l13 34t22 42r25 46r25 53r25 57r25
+8Y23 P 8>25 17b23 25l21 25t22 42s35 53s35
+8i25 value{positive} 19r28 20r50 22r40
+9U27 V 9>29 30b27 33l21 33t22 46s35 57s35
+9i29 value{positive} 30b29 32r42
+11i17 level{natural} 19r37 20r33 20r42 26r38 28r25 28r34 32r25 32r34
+12Y23 PP 17r50 23r41 26b23 29l21 29t23
+13i17 tmp{positive} 22r33 26r31 28r42
+17i25 value{positive}
+36t14 producer 39b19 48t12
+37t14 consumer 50b19 59t12
+41i21 i{integer}
+52i21 i{integer}
+

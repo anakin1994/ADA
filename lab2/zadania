@@ -1,0 +1,5 @@
+1. Producent - konsument, 1 - elem. bufor, spotkania
+2. 		-||-	n-elem, spotkania
+3. 			-||-		obiekt chroniony
+4. Semafor ogólny, obiekt chroniony
+5. Semafor uogólniony, obiekt chroniony
